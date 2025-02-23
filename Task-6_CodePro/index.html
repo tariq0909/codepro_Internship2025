@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeFolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">CodeFolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Dropdown 1</a>
+                            <div class="dropdown dropright">
+                                <a class="dropdown-item dropdown-toggle" href="#" id="deepDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Deep Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="deepDropdown">
+                                    <a class="dropdown-item" href="#">Deep Dropdown 1</a>
+                                    <a class="dropdown-item" href="#">Deep Dropdown 2</a>
+                                    <a class="dropdown-item" href="#">Deep Dropdown 3</a>
+                                    <a class="dropdown-item" href="#">Deep Dropdown 4</a>
+                                    <a class="dropdown-item" href="#">Deep Dropdown 5</a>
+                                </div>
+                            </div>
+                            <a class="dropdown-item" href="#">Dropdown 2</a>
+                            <a class="dropdown-item" href="#">Dropdown 3</a>
+                            <a class="dropdown-item" href="#">Dropdown 4</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero text-white d-flex align-items-center" style="background-image: url('images/bg1.jpg'); background-size: cover; height: 100vh;">
+        <div class="container text-center">
+          <br><br><br><br>
+            <h2 class="display-4">I am Tarique Ahmed</h2>
+            <p class="lead"><span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row gy-4">
+        
+                <div class="col-md-6">
+                    <div class="row justify-content-between gy-4">
+                        <div class="col-lg-5">
+                            <img src="images/bg1.jpg" class="img-fluid rounded" alt="Profile Image">
+                        </div>
+                        <div class="col-lg-7 about-info">
+                            <p><strong>Name:</strong> <span>Tarique Brohi</span></p>
+                            <p><strong>Profile:</strong> <span>front-end Developer</span></p>
+                            <p><strong>Email:</strong> <span>tariq@gmail.com</span></p>
+                            <p><strong>Phone:</strong> <span>(+92)123456789</span></p>
+                        </div>
+                    </div>
+
+                    <div class="skills-content">
+                        <h5>Skills</h5>
+
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">HTML</div>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">CSS</div>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">Photoshop</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="about-me">
+                        <h4>About Me</h4>
+                        <p>
+                            I am a dedicated and skilled Full Stack Developer with experience in building dynamic and responsive web applications. 
+                            Passionate about front-end and back-end technologies, I strive to create efficient and user-friendly digital experiences.
+                        </p>
+                        <p>
+                            My expertise includes modern frameworks like React, Node.js, and Bootstrap. I continuously explore new technologies 
+                            and best practices to improve my development skills and deliver high-quality projects.
+                        </p>
+                        <p>
+                            Beyond coding, I enjoy problem-solving, collaborating with teams, and bringing innovative ideas to life. 
+                            My goal is to contribute to impactful projects that make a difference.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section><section class="resume-section">
+      <div class="container">
+        <div class="section-title">
+            <h2>Resume</h2>
+            <p>Passionate Computer Science student with expertise in web development, problem-solving, and modern technologies.</p>
+        </div>
+      
+        <div class="row">
+           
+            <div class="col-md-6">
+                <h3><strong>Summary</strong></h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>TARIQUE</h4>
+                        <p><em>Computer Science student in my 8th semester with a strong foundation in software development, problem-solving, and data structures. Passionate about web development, backend development using Node.js, and emerging technologies like AI and cloud computing.</em></p>
+                        <ul>
+                            <li>Location: Hyderabad, Pak</li>
+                            <li>Phone: +92 98765 43210</li>
+                            <li>Email: tarique.cs@studentmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+      
+                <h3><strong>Education</strong></h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</h4>
+                        <span>2020 - 2024</span>
+                        <p><em>SZABIST University, Hyderabad</em></p>
+                        <p>Specialized in software development, database management, networking, and AI concepts. Completed projects in full-stack web development and machine learning.</p>
+                    </div>
+                </div>
+            </div>
+      
+        
+            <div class="col-md-6">
+                <h3><strong>Professional Experience</strong></h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>WEB DEVELOPMENT INTERN</h4>
+                        <span>June 2023 - September 2023</span>
+                        <p><em>Tech Solutions Pvt. Ltd., Hyderabad</em></p>
+                        <ul>
+                            <li>Developed and maintained web applications using React.js and Node.js.</li>
+                            <li>Optimized database performance and implemented REST APIs with Express.js.</li>
+                            <li>Collaborated with a team to build scalable and responsive applications.</li>
+                            <li>Participated in debugging, testing, and deployment of applications.</li>
+                        </ul>
+                    </div>
+      
+                    <div class="timeline-item">
+                        <h4>ACADEMIC PROJECTS</h4>
+                        <span>2024</span>
+                        <p><em>Final Year Project: EasyMart Online Shopping Made Easy via AI</em></p>
+                        <ul>
+                            <li>Designed and implemented a full-stack expense tracking system using React, Node.js, and MongoDB.</li>
+                            <li>Integrated authentication using Firebase and user-friendly UI with Bootstrap.</li>
+                            <li>Added features like real-time data visualization using Chart.js.</li>
+                            <li>Presented the project and submitted a technical report.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      </section>
+      
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container text-center">
+          
+            <h1 class="font-weight-bold pb-2" style="border-bottom: 4px solid blue; display: inline-block;">Services</h1>
+            <p class="mt-3">Providing top-notch services to meet your business needs.</p>
+            
+            <div class="row mt-4">
+             
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card text-center shadow p-4" style="border-bottom: 6px solid skyblue;">
+                        <div class="card-body">
+                            <i class="fas fa-code fa-3x text-primary"></i>
+                            <h5 class="card-title mt-3">Web Development</h5>
+                            <p class="card-text">Building responsive and high-performance websites.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card text-center shadow p-4" style="border-bottom: 6px solid skyblue;">
+                        <div class="card-body">
+                            <i class="fas fa-paint-brush fa-3x text-primary"></i>
+                            <h5 class="card-title mt-3">Graphic Design</h5>
+                            <p class="card-text">Creating stunning visuals and branding materials.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card text-center shadow p-4" style="border-bottom: 6px solid skyblue;">
+                        <div class="card-body">
+                            <i class="fas fa-mobile-alt fa-3x text-primary"></i>
+                            <h5 class="card-title mt-3">App Development</h5>
+                            <p class="card-text">Developing mobile apps for Android & iOS platforms.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card text-center shadow p-4" style="border-bottom: 6px solid skyblue;">
+                        <div class="card-body">
+                            <i class="fas fa-chart-line fa-3x text-primary"></i>
+                            <h5 class="card-title mt-3">SEO Optimization</h5>
+                            <p class="card-text">Boosting website ranking with best SEO practices.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card text-center shadow p-4" style="border-bottom: 6px solid skyblue;">
+                        <div class="card-body">
+                            <i class="fas fa-shield-alt fa-3x text-primary"></i>
+                            <h5 class="card-title mt-3">Cyber Security</h5>
+                            <p class="card-text">Protecting data with advanced security solutions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="card text-center shadow p-4" style="border-bottom: 6px solid skyblue;">
+                        <div class="card-body">
+                            <i class="fas fa-database fa-3x text-primary"></i>
+                            <h5 class="card-title mt-3">Database Management</h5>
+                            <p class="card-text">Managing and optimizing databases for businesses.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Stats Section -->
+<section id="stats" class="stats section">
+    <div class="container position-relative stats-content" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="stats-item">
+                    <h3>232</h3>
+                    <p>Clients</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stats-item">
+                    <h3>521</h3>
+                    <p>Projects</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stats-item">
+                    <h3>1453</h3>
+                    <p>Hours of Support</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stats-item">
+                    <h3>32</h3>
+                    <p>Awards</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+
+<!-- Portfolio -->
+<section class="portfolio">
+    <div class="container">
+        <h2>Portfolio</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <ul class="portfolio-filters">
+            <li class="active" data-filter="all">ALL</li>
+            <li data-filter="app">APP</li>
+            <li data-filter="product">PRODUCT</li>
+            <li data-filter="branding">BRANDING</li>
+            <li data-filter="books">BOOKS</li>
+        </ul>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 portfolio-item app">
+                <img src="images/camera-1283953_1280.jpg" alt="App 1">
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item product">
+                <img src="images/clock-6518632_1280.jpg"alt="Product 1">
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item branding">
+                <img src="images/clock-931027_1920.jpg" alt="Branding 1">
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item books">
+                <img src="images/headphones-5596990_1280.jpg" alt="Books 1">
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item app">
+                <img src="images/perfume-6518634_1280.jpg" alt="App 2">
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item product">
+                <img src="images/office-2360063_1280.jpg" alt="Product 2">
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item branding">
+                <img src="images/technology-2200260_1280.jpg" alt="Branding 2">
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item books">
+                <img src="images/watch-4449152_1280.jpg" alt="Books 2">
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item app">
+                <img src="images/technology-2200260_1280.jpg" alt="App 3">
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item product">
+                <img src="images/product-9297608_1280.jpg" alt="Product 3">
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item branding">
+                <img src="images/office-2360063_1280.jpg" alt="Branding 3">
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item books">
+                <img src="images/watch-4449152_1280.jpg" alt="Books 3">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Pricing Section -->
+<section id="pricing" class="pricing section py-5">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="fw-bold">Pricing</h2>
+        <div class="border-bottom border-primary mx-auto" style="width: 50px;"></div>
+        <p class="text-muted mt-2">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between border-bottom pb-2">
+            <h5>Portrait Photography</h5>
+            <h5 class="text-primary">$160.00</h5>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between border-bottom pb-2">
+            <h5>Fashion Photography</h5>
+            <h5 class="text-primary">$300.00</h5>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between border-bottom pb-2">
+            <h5>Sports Photography</h5>
+            <h5 class="text-primary">$200.00</h5>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between border-bottom pb-2">
+            <h5>Still Life Photography</h5>
+            <h5 class="text-primary">$120.00</h5>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between border-bottom pb-2">
+            <h5>Wedding Photography</h5>
+            <h5 class="text-primary">$500.00</h5>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between border-bottom pb-2">
+            <h5>Photojournalism</h5>
+            <h5 class="text-primary">$200.00</h5>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="content px-xl-5">
+            <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+          <div class="faq-container">
+            <div class="faq-item faq-active">
+              <h3><span class="num">1.</span> <span>Non consectetur a erat nam at lectus urna duis?</span></h3>
+              <div class="faq-content">
+                <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+              </div>
+              <i class="faq-toggle fas fa-chevron-right"></i>
+            </div>
+            <div class="faq-item">
+              <h3><span class="num">2.</span> <span>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span></h3>
+              <div class="faq-content">
+                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              </div>
+              <i class="faq-toggle fas fa-chevron-right"></i>
+            </div>
+            <div class="faq-item">
+              <h3><span class="num">3.</span> <span>Dolor sit amet consectetur adipiscing elit pellentesque?</span></h3>
+              <div class="faq-content">
+                <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.</p>
+              </div>
+              <i class="faq-toggle fas fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section">
+    <img src="images/office-2360063_1280.jpg" class="testimonials-bg" alt="">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper init-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img src="images/bg1.jpg" class="testimonial-img" alt="">
+              <h3>Tarique</h3>
+              <h4>Ceo & Founder</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p>
+                <i class="fas fa-quote-left"></i>
+                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                <i class="fas fa-quote-right"></i>
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img src="images/bg1.jpg" class="testimonial-img" alt="">
+              <h3>Simon smith</h3>
+              <h4>Designer</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p>
+                <i class="fas fa-quote-left"></i>
+                <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                <i class="fas fa-quote-right"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>  
+  <div style="margin-top: 75px;"></div>
+<!-- Contact Section -->
+<section id="contact" class="contact section">
+
+   <div class="container">
+  
+      <!-- Section Title -->
+      <div class="text-center mb-4">
+        <h2 class="fw-bold">Contact</h2>
+        <div class="border-bottom border-primary mx-auto" style="width: 50px;"></div>
+        <p class="text-muted mt-2">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+    <div class="row">
+      <!-- Contact Info -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="info-box text-center p-4 shadow-sm">
+          <i class="fa fa-map-marker fa-2x text-primary mb-3"></i>
+          <h4>Address</h4>
+          <p>123 Main Street, New York, NY 10001</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="info-box text-center p-4 shadow-sm">
+          <i class="fa fa-phone fa-2x text-primary mb-3"></i>
+          <h4>Call Us</h4>
+          <p>+1 (555) 123-4567</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="info-box text-center p-4 shadow-sm">
+          <i class="fa fa-envelope fa-2x text-primary mb-3"></i>
+          <h4>Email</h4>
+          <p><a href="mailto:contact@example.com">contact@example.com</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="row justify-content-center">
+      <div class="col-lg-8 mt-4" data-aos="fade-up" data-aos-delay="400">
+        <form action="forms/contact.php" method="post" class="php-email-form p-4 shadow-sm bg-white">
+          <div class="form-group">
+            <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="bg-primary text-white text-center py-4">
+  <div class="container">
+    <p class="mb-2">© Copyright <strong>CodeFolio</strong> All Rights Reserved</p>
+    
+    <div class="d-flex justify-content-center mb-2">
+      <a href="#" class="mx-2 text-white rounded-circle border border-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+      <a href="#" class="mx-2 text-white rounded-circle border border-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="mx-2 text-white rounded-circle border border-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" class="mx-2 text-white rounded-circle border border-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+
+    <p class="mb-0">Designed by <a href="#" class="text-white font-weight-bold">Tarique</a></p>
+  </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        AOS.init();
+        document.querySelectorAll('.portfolio-filters li').forEach(filter => {
+        filter.addEventListener('click', function() {
+            document.querySelectorAll('.portfolio-filters li').forEach(f => f.classList.remove('active'));
+            this.classList.add('active');
+            let filterValue = this.getAttribute('data-filter');
+            document.querySelectorAll('.portfolio-item').forEach(item => {
+                if (filterValue === 'all' || item.classList.contains(filterValue)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+
+     document.querySelectorAll('.faq-item h3').forEach(item => {
+      item.addEventListener('click', () => {
+        item.parentElement.classList.toggle('faq-active');
+      });
+    });
+
+    const swiper = new Swiper('.init-swiper', {
+      loop: true,
+      speed: 600,
+      autoplay: {
+        delay: 5000,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+    </script>
+</body>
+</html>
